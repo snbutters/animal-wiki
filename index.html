@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.5.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>animal-wiki</title>
+  </head>
+  <body>
+    <div class="container">
+      <h3>Select the animal you want to learn more about:</h3>
+      <form id="formOne">
+        <div class="radio">
+          <label id="goats1">
+            <input type="radio" name="animal" value="goats" checked>
+            Goats
+          </label>
+        </div>
+        <div class="radio">
+          <label for="pigs">
+            <input type="radio" name="animal" value="pigs">
+            Pigs
+          </label>
+        </div>
+        <div class="radio">
+          <label for="cows">
+            <input type="radio" name="animal" value="cows">
+            Cows
+          </label>
+        </div>
+
+        <button type="submit" class="btn">Submit</button>
+      </form>
+  
+
+      <div id="goats">
+        <h1>Information About Goats</h1>
+      </div>
+      <div id="pigs">
+        <h1>Information About Pigs</h1>
+      </div>
+      <div id="cows">
+        <h1>Information About Cows</h1>
+      </div>
+    </div>
+  </body>
+</html>
+
+
